@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #1F2937;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.form {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #FF9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.links p {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup p {
+  margin-bottom: 10px;
+}
+
+.signup a {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 12px;
+}

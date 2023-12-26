@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    font: arial;
+}
+.nav{
+    height: 50px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 70px;
+    width: 100px;
+    color: black;
+    /* background-color: #101010; */
+}
+.logo{
+    background-image: url('https://m.media-amazon.com/images/S/sash/mPGmT0r6IeTyIee.png');
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+}
+
+/* sign-in form  */
+.sign-in-form{
+width: 350px;
+height: 360px;
+box-shadow: 0 0 3px rgb(0,0,0,0.3);
+background: #fff;
+padding: 30px;
+margin: 3% auto 0;
+/* margin-left:auto 
+   margin-right:auto*/
+border-radius: 6px;
+}
+.sign-in-form h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.sign-in-form label{
+    font-weight: 600;
+    font-size: 1rem;
+}
+#email{
+    width: 330px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.sign-in-form button{
+    color: black;
+    background-color:#f0c14d;
+    border-radius: 6px;
+    width: 340px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.sign-in-form button:hover{
+    background-color:rgb(180, 155, 91);
+}
+
+.sign-in-form p{
+    margin-bottom: 20px;
+    width: 350px;
+    
+}
+.sign-in-form a{
+    color: #007185;  
+    font-size: 1rem;  
+}
+.sign-in-form hr{
+    width: 350px;
+    opacity: 0.4;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.sign-in-form h4{
+    margin-bottom: 7px;
+}
+
+.create-account{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.create-account p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.create-account button{
+    color: black;
+    background-color:white;
+    border-radius: 6px;
+    width: 410px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px rgb(0,0,0,0.3);
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.create-account button:hover{
+    background-color:#edecec ;
+}
+/* footer */
+footer hr{
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #f6f5f5;
+    height: 150px;
+}
+.foot-panel{
+    text-align: center;
+}
+
+.foot-panel a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #05c5f5;
+}
+.foot-panel p{
+    margin-top: 15px;
+}
